@@ -1,2 +1,3 @@
 # hello-world
-First test project
+
+This first test project is dedicated to Daniel.
