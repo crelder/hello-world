@@ -1,3 +1,5 @@
 # hello-world
 
-This first test project is dedicated to Daniel.
+This first Git project is dedicated to Daniel.
+
+Product search for refurbished Mac, example: iPad2 - 64 GB.
