@@ -3,19 +3,19 @@
 import urllib
 import smtplib
 
-######## Webseite auslesen
+######## Read website
 sock = urllib.urlopen("http://www.apple.com/de/shop/browse/home/specialdeals/ipad/ipad_air_2/")
 htmlSource = sock.read()
 sock.close()
 
-########## Webseite durchsuchen
+########## Search website
 iPad128 = htmlSource.find("Generalüberholtes iPad Air 2 Wi-Fi 128 GB – Silber”)
 
-########## E-Mail versenden
+########## Send notification e-mail
 def send_email():
     message128 = """From: From Person <from@fromdomain.com>
 To: To Person <to@todomain.com>
-Subject: iPad 128GB verfügbar!
+Subject: iPad 128GB available!
 
 E-Mail Body.
 “""
